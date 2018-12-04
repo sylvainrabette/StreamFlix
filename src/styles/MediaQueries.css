@@ -1,0 +1,25 @@
+/* HEADER */
+
+@media screen and (min-width: 950px) {
+  .header {
+    height: 68px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+    .header {
+      padding: 0 60px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+  .header .Logo {
+    margin-right: 25px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .header .search {
+    right: 60px;
+  }
+}

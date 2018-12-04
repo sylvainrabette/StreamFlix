@@ -4,8 +4,8 @@ class MovieTile extends React.Component {
   render() {
     return (
       <div className="tile">
-        <label>{this.props.title}</label>
         <img src={this.props.image} />
+        <label className="move-title">{this.props.title}</label>
       </div>
     )
   }

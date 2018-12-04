@@ -8,14 +8,14 @@ class Header extends React.Component {
     return (
       <header className="header">
         <Logo />
-        <div id="search" className="Search">
-            <input
-              onKeyUp={this.handleKeyUp}
-              onChange={this.handleChange}
-              type="search"
-              placeholder="Search for a title..." />
-        </div>
         <Navigation />
+        <div id="search" className="search">
+          <input
+            onKeyUp={this.handleKeyUp}
+            onChange={this.handleChange}
+            type="search"
+            placeholder="Search for a title..." />
+        </div>
       </header>
     )
   }

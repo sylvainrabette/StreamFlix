@@ -3,7 +3,7 @@ import React from 'react'
 class Logo extends React.Component {
   render() {
     return (
-			<div id="logo" className="Logo">
+			<a id="logo" className="Logo" href="#">
 				<svg version="1.1" width="300" height="81.386726" id="svg3262">
 					<g transform="translate(-384.28572,-428.81172)" id="layer1">
 						<g transform="matrix(2.5445375,0,0,2.5445375,1157.1714,-1457.8678)" id="g3235">
@@ -17,7 +17,7 @@ class Logo extends React.Component {
 						</g>
 					</g>
 				</svg>
-			</div>
+			</a>
 		)
 	}
 }

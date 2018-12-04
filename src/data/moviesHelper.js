@@ -12,8 +12,8 @@ class MoviesHelper {
 
   getMovieImage(movie) {
     let path = 'src/assets/images/'
-    let title = movie.title
-    return path + title + '.png'
+    let id = movie.id
+    return path + id + '.png'
   }
 
 }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import '../styles/App.css'
+import '../styles/MediaQueries.css'
 import MoviesHelper from '../data/moviesHelper'
 
 import Header from './Header'
@@ -14,7 +15,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <div id="hero" className="Hero">
+        <div className="movie-list">
           {this.generateMovieTiles()}
         </div>
       </div>
