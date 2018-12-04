@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Logo from '../assets/Logo'
+import Navigation from './Navigation'
 
 class Header extends React.Component {
   render() {
@@ -14,6 +15,7 @@ class Header extends React.Component {
               type="search"
               placeholder="Search for a title..." />
         </div>
+        <Navigation />
       </header>
     )
   }
