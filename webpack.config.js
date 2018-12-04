@@ -2,8 +2,6 @@ var path = require('path');
 var node_modules = path.resolve(__dirname, 'node_modules');
 var pathToReact = path.resolve(node_modules, 'react/dist/react.min.js');
 
-var webpack = require('webpack');
-
 module.exports = {
 
     entry: path.resolve(__dirname, './src/index.js'),
