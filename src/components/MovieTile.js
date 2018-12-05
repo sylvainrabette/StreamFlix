@@ -7,6 +7,7 @@ class MovieTile extends React.Component {
         <img src={this.props.image} />
         <label className="move-title">{this.props.title}</label>
       </div>
+      
     )
   }
 }

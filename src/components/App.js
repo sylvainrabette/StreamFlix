@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
-import '../styles/App.css'
-import '../styles/MediaQueries.css'
+
 import MoviesHelper from '../data/moviesHelper'
+import Constants from '../data/constants'
+import '../styles/MediaQueries.css'
+import '../styles/App.css'
 
 import Header from './Header'
-import MovieTile from './MovieTile';
-import Constants from '../data/constants'
+import MovieTile from './MovieTile'
+import NotFound from './NotFound'
 
 class App extends Component {
   constructor () {
@@ -36,11 +38,16 @@ class App extends Component {
       category: this.state.category
     })
 
-    return movies.map(movie =>
-      <MovieTile
-        title={movie.title}
-        image={MoviesHelper.getMovieImage(movie)} />
-    )
+    if (movies.length) {
+      return movies.map(movie =>
+        <MovieTile
+          title={movie.title}
+          image={MoviesHelper.getMovieImage(movie)} />
+      )
+    }
+
+    return <NotFound />
+    
   }
 
   onLiveChange (e) {
