@@ -1,11 +1,13 @@
 [
   {
     "title": "Orange is the new black",
-    "id": "orange_is-the_new_black"
+    "id": "orange_is-the_new_black",
+    "category": "serie"
   },
   {
     "title": "The Avengers",
-    "id": "the_avengers"
+    "id": "the_avengers",
+    "category": "film"
   },
   {
     "title": "Orange is the new black",

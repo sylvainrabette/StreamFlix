@@ -5,11 +5,9 @@ class Search extends React.Component {
     return (
       <div id="search" className="search">
         <input
-          onKeyUp={this.handleKeyUp}
-          onChange={this.handleChange}
           type="search"
           placeholder="Search for a title..."
-          onChange={ e => this.onFilterTextChanged(e) }/>
+          onChange={ (event) => this.props.onLiveChange(event) }/>
         </div>
     )
   }

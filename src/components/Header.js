@@ -9,8 +9,8 @@ class Header extends React.Component {
     return (
       <header className="header">
         <Logo />
-        <Navigation />
-        <Search onLiveChange={=> } />
+        <Navigation onCategorySelected={ this.props.onCategorySelected }/>
+        <Search onLiveChange={ this.props.onLiveChange } />
       </header>
     )
   }
