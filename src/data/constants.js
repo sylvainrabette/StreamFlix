@@ -2,7 +2,8 @@ const Constants = {
   Category: {
     All: 'all',
     Film: 'film',
-    Serie: 'serie'
+    Serie: 'serie',
+    DessinAnime: 'dessin_anime'
   }
 }
 

@@ -10,35 +10,13 @@
     "category": "film"
   },
   {
-    "title": "Orange is the new black",
-    "id": "orange_is-the_new_black"
+    "title": "La Casa de Papel",
+    "id": "la_casa_de_papel",
+    "category": "serie"
   },
   {
-    "title": "Orange is the new black",
-    "id": "orange_is-the_new_black"
-  },
-  {
-    "title": "Orange is the new black",
-    "id": "orange_is-the_new_black"
-  },
-  {
-    "title": "Orange is the new black",
-    "id": "orange_is-the_new_black"
-  },
-  {
-    "title": "Orange is the new black",
-    "id": "orange_is-the_new_black"
-  },
-  {
-    "title": "Orange is the new black",
-    "id": "orange_is-the_new_black"
-  },
-  {
-    "title": "Orange is the new black",
-    "id": "orange_is-the_new_black"
-  },
-  {
-    "title": "Orange is the new black",
-    "id": "orange_is-the_new_black"
+    "title": "Shrek",
+    "id": "shrek",
+    "category": "dessin_anime"
   }
 ]
