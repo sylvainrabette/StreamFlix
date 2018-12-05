@@ -2,6 +2,7 @@ import React from 'react'
 
 import Logo from '../assets/Logo'
 import Navigation from './Navigation'
+import Search from './Search'
 
 class Header extends React.Component {
   render() {
@@ -9,13 +10,7 @@ class Header extends React.Component {
       <header className="header">
         <Logo />
         <Navigation />
-        <div id="search" className="search">
-          <input
-            onKeyUp={this.handleKeyUp}
-            onChange={this.handleChange}
-            type="search"
-            placeholder="Search for a title..." />
-        </div>
+        <Search onLiveChange={=> } />
       </header>
     )
   }
