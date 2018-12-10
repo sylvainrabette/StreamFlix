@@ -1,0 +1,30 @@
+.filters-container {
+  position: relative;
+  width: 100%;
+  user-select: none;
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+  transition: max-height 1.5s ease;
+}
+
+.filters-container-closed {
+  max-height: 0;
+  overflow-y: hidden;
+  transition: max-height -1s ease;
+}
+
+.filters-container-open {
+  max-height: 100%;
+  overflow-y: unset;
+}
+
+.movie-tags {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0.5em 0.5em 0 0.5em;
+  padding-bottom: 5px;
+  background-color: white;
+  color: #000;
+}

@@ -23,3 +23,35 @@
     right: 60px;
   }
 }
+
+/* TILES */
+
+@media screen and (max-width: 499px) {
+  .tile {
+      width:50%
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width:799px) {
+  .tile {
+      width:33.333333%
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width:1099px) {
+  .tile {
+      width: 25%;
+  }
+}
+
+@media screen and (min-width: 1100px) and (max-width:1399px) {
+  .tile {
+      width:20%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .tile {
+      width:16.66666667%
+  }
+}
