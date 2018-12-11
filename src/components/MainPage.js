@@ -24,7 +24,11 @@ class MainPage extends Component {
       filterVisible: false,
       movies: MoviesHelper.getMovies(),
       searchText: '',
-      category: Constants.Category.All
+      category: Constants.Category.All,
+      searchSettings: { 
+        text: '',
+        types: [] 
+    }
     }
   }
 
@@ -70,7 +74,9 @@ class MainPage extends Component {
     return (
       <div className="App">
       { this.generateToolbar() }
-        <FilterPanel visible = { this.state.filterVisible } />
+        <FilterPanel
+          types={ this.state.searchSettings.types }
+          visible = { this.state.filterVisible } />
         <div className="movie-list">
           {this.generateMovieTiles()}
         </div>

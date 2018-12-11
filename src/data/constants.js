@@ -6,9 +6,9 @@ const Constants = {
     DessinAnime: 'dessin_anime'
   },
   Tags: {
-    Action: 'Action',
-    Drame: 'Drame',
-    Comedie: 'Comédie'
+    Action: 'action',
+    Drame: 'drame',
+    Comedie: 'comédie'
   }
 }
 
