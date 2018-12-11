@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Constants from '../data/constants'
+import Utils from '../data/Utils'
 import '../styles/FilterPanel.css'
 
 class FilterPanel extends React.Component {

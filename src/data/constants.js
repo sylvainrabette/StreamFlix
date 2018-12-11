@@ -7,8 +7,21 @@ const Constants = {
   },
   Tags: {
     Action: 'action',
+    Anime: 'anime',
+    Comedie: 'comédie',
+    Documentaires: 'documentaires',
     Drame: 'drame',
-    Comedie: 'comédie'
+    fantastique: 'fantastique',
+    Francais: 'français',
+    Horreur: 'horreur',
+    Independant: 'indépendant',
+    International: 'international',
+    Jeunesse: 'jeunesse',
+    Comedies_Musicales: 'comédies musicales',
+    Policier: 'policier',
+    Romance: 'romance',
+    Science_Fiction: 'science fiction',
+    Thriller: 'thriller'
   }
 }
 
