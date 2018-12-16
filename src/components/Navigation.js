@@ -6,16 +6,32 @@ class Navigation extends React.Component {
     return (
       <ul className="navigation">
         <li>
-          <a href="#" onClick={ () => this.props.onCategorySelected(Constants.Category.All) }>All</a>
+          <a
+            href="#"
+            onClick={ () => this.props.onCategorySelected(Constants.Category.All) }>
+              All
+            </a>
         </li>
         <li>
-          <a href="#" onClick={ () => this.props.onCategorySelected(Constants.Category.Film) }>Films</a>
+          <a
+            href="#"
+            onClick={ () => this.props.onCategorySelected(Constants.Category.Film) }>
+              Films
+            </a>
         </li>
         <li>
-          <a href="#" onClick={ () => this.props.onCategorySelected(Constants.Category.Serie) }>Séries</a>
+          <a
+            href="#"
+            onClick={ () => this.props.onCategorySelected(Constants.Category.Serie) }>
+              Séries
+          </a>
         </li>
         <li>
-          <a href="#" onClick={ () => this.props.onCategorySelected(Constants.Category.DessinAnime) }>Dessins Animés</a>
+          <a
+            href="#"
+            onClick={ () => this.props.onCategorySelected(Constants.Category.DessinAnime) }>
+              Dessins Animés
+            </a>
         </li>
       </ul>
     )

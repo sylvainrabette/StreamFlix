@@ -46,7 +46,7 @@ class MainPage extends Component {
 
             <div className="header-right">
               <Search
-                onActivateSearch = { (e) => this.onActivateSearch(false) }
+                onActivateSearch = { () => this.onActivateSearch(false) }
                 onLiveChange = { (e) => this.onLiveChange(e) } />
               <Icon
                 icon="fa fa-filter fa-lg filter-icon"
