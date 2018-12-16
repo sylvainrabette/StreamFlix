@@ -28,7 +28,18 @@ class MoviesHelper {
   }
 
   getMovieImage(movie) {
-    let path = 'src/assets/images/'
+    let path = ''
+    switch(movie.category) {
+      case 'film':
+        path = 'src/assets/images/films/'
+        break
+      case 'serie':
+        path = 'src/assets/images/series/'
+        break
+      case 'dessin_anime':
+        path = 'src/assets/images/animes/'
+        break
+    }
     let id = movie.id
     return path + id + '.jpg'
   }

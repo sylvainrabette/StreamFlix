@@ -18,5 +18,45 @@
     "title": "Shrek",
     "id": "shrek",
     "category": "dessin_anime"
+  },
+  {
+    "title": "Harry Potter à l'école des sorciers",
+    "id": "harry_potter_1",
+    "category": "film"
+  },
+  {
+    "title": "Harry Potter et la Chambre des secrets",
+    "id": "harry_potter_2",
+    "category": "film"
+  },
+  {
+    "title": "Harry Potter et le Prisonnier d'Azkaban",
+    "id": "harry_potter_3",
+    "category": "film"
+  },
+  {
+    "title": "Harry Potter et la Coupe de feu",
+    "id": "harry_potter_4",
+    "category": "film"
+  },
+  {
+    "title": "Harry Potter et l'Ordre du phénix",
+    "id": "harry_potter_5",
+    "category": "film"
+  },
+  {
+    "title": "Harry Potter et le Prince de sang-mêlé",
+    "id": "harry_potter_6",
+    "category": "film"
+  },
+  {
+    "title": "Harry Potter et les Reliques de la Mort - Part 1",
+    "id": "harry_potter_7_1",
+    "category": "film"
+  },
+  {
+    "title": "Harry Potter et les Reliques de la Mort - Part 2",
+    "id": "harry_potter_7_2",
+    "category": "film"
   }
 ]
