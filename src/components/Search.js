@@ -2,8 +2,12 @@ import React from 'react'
 
 class Search extends React.Component {
 
-  componentDidMount(){
-    this.nameInput.focus();
+  componentDidMount() {
+    this.nameInput.focus()
+  }
+
+  onFocusOut() {
+    console.log("toto")
   }
 
   render() {
@@ -13,7 +17,8 @@ class Search extends React.Component {
           type="search"
           ref={(input) => { this.nameInput = input; }} 
           placeholder="Search for a title..."
-          onChange={ (event) => this.props.onLiveChange(event) }/>
+          onChange={ (event) => this.props.onLiveChange(event) }
+          onBlur={(event) => this.props.onActivateSearch(event) } />
         </div>
     )
   }

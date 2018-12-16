@@ -40,12 +40,17 @@ class MainPage extends Component {
           <div className="header">
             <div className="header-left">
               <Logo />
-              <Navigation onCategorySelected = { (category) => this.setState({ category })}/> 
+              <Navigation
+                onCategorySelected = { (category) => this.setState({ category })}/> 
             </div>
 
             <div className="header-right">
-              <Search onLiveChange = { (e) => this.onLiveChange(e) } />
-              <Icon icon="fa fa-filter fa-lg filter-icon" onClick={ (e) => this.onToggleFilterPanel(e) }/>
+              <Search
+                onActivateSearch = { (e) => this.onActivateSearch(false) }
+                onLiveChange = { (e) => this.onLiveChange(e) } />
+              <Icon
+                icon="fa fa-filter fa-lg filter-icon"
+                onClick={ (e) => this.onToggleFilterPanel(e) } />
             </div>
           </div>   
         )
@@ -55,12 +60,17 @@ class MainPage extends Component {
           <div className="header">
             <div className="header-left">
               <Logo />
-              <Navigation onCategorySelected = { (category) => this.setState({ category })}/> 
+              <Navigation
+                onCategorySelected = { (category) => this.setState({ category })} /> 
             </div>
 
             <div className="header-right">
-              <Icon icon="fa fa-search fa-lg search-icon" onClick={ (e) => this.onActivateSearch(true) }/>
-              <Icon icon="fa fa-filter fa-lg filter-icon" onClick={ (e) => this.onToggleFilterPanel(e) }/>
+              <Icon
+                icon="fa fa-search fa-lg search-icon"
+                onClick={ (e) => this.onActivateSearch(true) } />
+              <Icon
+                icon="fa fa-filter fa-lg filter-icon"
+                onClick={ (e) => this.onToggleFilterPanel(e) } />
             </div>
           </div>  
         )
@@ -104,8 +114,7 @@ class MainPage extends Component {
 
   onActivateSearch (active) {
     this.setState({ viewMode: active ? ViewMode.SEARCH : ViewMode.DEFAULT })
-    this._focusInput = true
-}
+  }
 
   onLiveChange (e) {
    const searchText = e.target.value

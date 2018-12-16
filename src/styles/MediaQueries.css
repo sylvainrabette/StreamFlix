@@ -24,6 +24,12 @@
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .navigation li a {
+    font-size: 14px;
+  }
+}
+
 /* TILES */
 
 @media screen and (max-width: 499px) {
